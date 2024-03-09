@@ -1,0 +1,8 @@
+<!-- header.component.html -->
+<nav>
+  <ul>
+    <li *ngFor="let item of navigationItems" (click)="pageSelected.emit(item)">
+      {{ item }}
+    </li>
+  </ul>
+</nav>

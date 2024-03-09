@@ -3,8 +3,13 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Assignment2-Sujal-Rabari';
+  navigationItems: string[] = ["Page 1", "Page 2", "Page 3"];
+  selectedPage: string = 'Page 1';
+
+  selectPage(page: string) {
+    this.selectedPage = page;
+  }
 }

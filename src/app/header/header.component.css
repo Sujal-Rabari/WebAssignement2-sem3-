@@ -1,0 +1,14 @@
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightcoral;
+  margin: 0;
+}
+
+ul li {
+  color: white;
+  padding: 5px;
+  font-size: 2em;
+  list-style: none;
+}
+

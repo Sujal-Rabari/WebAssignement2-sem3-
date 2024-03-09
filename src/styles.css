@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+/* styles.css */
+
+  .pages > p{
+    font-size: 1.5rem;
+  }
+  .pages >h1{
+     font-size: 2.3rem;
+  }

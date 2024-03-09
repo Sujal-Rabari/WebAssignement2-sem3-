@@ -1,0 +1,39 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: lightcoral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px 200px;
+}
+
+.social-links > div {
+  margin: 10px;
+}
+
+.social-links > div > a {
+    text-decoration: none;
+    color: lightgreen;
+}
+
+
+.footer > div {
+  margin: 10px;
+}
+
+.footer-text > h2 {
+  font-size: 2em;
+}
+
+.footer-text > p{
+   font-size: 1.5em;
+}
+
+.footer-text{
+  text-align: center;
+  color: white;
+}
